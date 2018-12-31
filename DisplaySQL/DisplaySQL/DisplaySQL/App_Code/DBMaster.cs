@@ -14,7 +14,7 @@ namespace DisplaySQL.App_Code
         {
             //CONNECT TO DB
             //Use thrusted connection for production
-            string connStr = "Server=10.0.0.128;Database=AdventureWorks;User Id=sa; Password=123456;";
+            string connStr = "Server=10.0.0.62;Database=dwsystem;User Id=sa; Password=123456;";
              conn = new SqlConnection(connStr);
             conn.Open();
             return conn;
